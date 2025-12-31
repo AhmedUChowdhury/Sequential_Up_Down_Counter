@@ -1,1 +1,3 @@
 # Sequential_Up_Down_Counter
+## Overview
+The system was implemented on a Xilinx FPGA using the Vivado Design Suite and the Zybo board. A 4-bit sequential up/down counter is a digital system designed to increment or decrement its value based on a user-controlled input. The counter utilized the onboard 125 MHz clock as its timing source, with a slider switch serving as the up/down control input and a push button used to reset the counter to zero. The 4-bit signed 2’s complement output was displayed using four onboard LEDs. The counter was designed to update its value once per second and remain clamped at the maximum or minimum numerical range of the 4-bit 2’s complement which can be calculated using the formula [-2k-1, 2k-1-1].
